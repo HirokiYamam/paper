@@ -11,7 +11,7 @@ from multiprocessing import Pool, Lock, Value
 import time
 
 dt_now = datetime.datetime.now()
-today = f'{dt_now.year[-2:]}_{dt_now.month}_{dt_now.day}'
+today = f'{dt_now.year-2000}_{dt_now.month}_{dt_now.day}'
 
 output_dir = f'../data/1_DNN_learn'
 
